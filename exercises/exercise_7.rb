@@ -10,3 +10,14 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+class Employees
+  validates :first_name, :last_name, :store_id: true
+  hourly_rate >= 40 <= 200
+end
+
+class Stores
+  validates: :name, length { minimum: 3}  
+  annual_revenue > 0 :only_intger: true
+  
+end
+

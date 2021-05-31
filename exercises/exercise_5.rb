@@ -8,3 +8,4 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
+@total_revenue = Stores.sum("annual_revenue")
